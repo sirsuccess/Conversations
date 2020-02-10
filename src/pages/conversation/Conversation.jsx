@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../../component/features/navbar/Navbar";
+import SideBar from "../../component/features/sidebar/Sidebar";
 import "./Conversation.css";
 
 export default function Conversation() {
@@ -11,8 +12,10 @@ export default function Conversation() {
           {" "}
           <Navbar />
         </div>
-        <div className="conversationTitle">title</div>
-        <div className="sideBar">sidebar</div>
+        <div className="conversationTitle">Conversations</div>
+        <div className="sideBar">
+          <SideBar />
+        </div>
         <div className="menu">Open</div>
         <div className="icon">clock</div>
         <div className="twit">Zerela Reed</div>

@@ -4,7 +4,7 @@
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50px 200px 200px 1fr 1fr 150px 150px;
     grid-template-rows: 42px 50px 42px 1fr 1fr 1fr 1fr;
 
     grid-template-areas:
@@ -19,39 +19,56 @@
 .navbar {
     grid-area: navbar;
     background-color: #6554c0;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 .sideBar {
     grid-area: sideBar;
-    background-color: rgb(212, 198, 198);
+    background-color: #f6fafd;
 }
 
 .conversationTitle {
     grid-area: conversationTitle;
-    background-color: rgb(13, 55, 172);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    color: #212242;
+    font-family: IBMPlexSans;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .menu {
     grid-area: menu;
-    background-color: rgb(187, 74, 112);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
+    /* background-color: rgb(187, 74, 112); */
 }
 
 .icon {
     grid-area: icon;
-    background-color: rgb(44, 160, 49);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
+    /* background-color: rgb(44, 160, 49); */
 }
 
 .twit {
     grid-area: twit;
-    background-color: rgb(87, 84, 84);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
 }
 
 .whatsApp {
     grid-area: whatsApp;
-    background-color: rgb(145, 238, 168);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
 }
 
 .comments {
     grid-area: comments;
-    background-color: rgb(195, 228, 76);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
 }

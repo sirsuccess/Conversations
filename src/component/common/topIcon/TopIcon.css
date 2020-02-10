@@ -1,0 +1,32 @@
+.TopIcon {
+    display: flex;
+    margin-top: 1em;
+
+}
+
+.opIconIcon {
+    cursor: pointer;
+    margin-left: 1em;
+    position: relative;
+}
+
+.opIconIcon .tooltiptex {
+    visibility: hidden;
+    width: 100px;
+    background-color: #595e8a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.opIconIcon:hover .tooltiptex {
+    visibility: visible;
+}

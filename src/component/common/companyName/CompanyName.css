@@ -1,0 +1,28 @@
+.CompanyName {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* width: 250px; */
+    color: #fff;
+    font-size: 14px;
+    font-family: IBMPlexSans;
+    font-weight: 500;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 22px;
+    width: 25px;
+    margin-right: 1em;
+    padding-top: 0.2em;
+    /* text-align: center; */
+}
+
+.fa-chevron-down {
+    color: #000;
+    margin-left: 1em;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 0.3em;
+}

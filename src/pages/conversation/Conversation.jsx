@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "../../component/features/navbar/Navbar";
 import SideBar from "../../component/features/sidebar/Sidebar";
+import Menu from "../../component/features/menu/Menu";
 import "./Conversation.css";
 
 export default function Conversation() {
@@ -16,7 +17,9 @@ export default function Conversation() {
         <div className="sideBar">
           <SideBar />
         </div>
-        <div className="menu">Open</div>
+        <div className="menu">
+          <Menu />
+        </div>
         <div className="icon">clock</div>
         <div className="twit">Zerela Reed</div>
         <div className="whatsApp">whatsApp</div>

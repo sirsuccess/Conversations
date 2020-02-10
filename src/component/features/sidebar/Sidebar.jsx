@@ -10,6 +10,7 @@ function Sidebar() {
       {SidebarData.map((item, index) => (
         <div className="sidebarIcon" key={index}>
           <img src={item.icon} alt="Simpo log" />
+          <span className="tooltiptext">{item.tooltip}</span>
           {/* <Link to={item.route}></Link> */}
         </div>
       ))}

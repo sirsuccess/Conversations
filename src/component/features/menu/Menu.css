@@ -1,0 +1,27 @@
+.Menu>ul {
+    display: flex;
+    justify-content: space-around;
+    color: #595e8a;
+    margin-left: -2em;
+}
+
+.Menu>ul>li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.Menu>ul>li:hover {
+    color: #6554c0;
+    background-color: #f6fafd;
+
+}
+
+.Menu>ul>li:first-child {
+    border-radius: 9px;
+    background-color: #f6fafd;
+    padding: 0.2em 0.5em;
+    color: #6554c0;
+    ;
+
+}

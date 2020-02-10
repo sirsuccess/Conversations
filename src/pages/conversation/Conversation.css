@@ -50,20 +50,25 @@
 
 .icon {
     grid-area: icon;
-    background-color: rgb(44, 160, 49);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
+    /* background-color: rgb(44, 160, 49); */
 }
 
 .twit {
     grid-area: twit;
-    background-color: rgb(87, 84, 84);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
 }
 
 .whatsApp {
     grid-area: whatsApp;
-    background-color: rgb(145, 238, 168);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
 }
 
 .comments {
     grid-area: comments;
-    background-color: rgb(195, 228, 76);
+    border-bottom: solid 0.7px #e9edf0;
+    border-right: solid 0.7px #e9edf0;
 }

@@ -1,10 +1,12 @@
 .container {
     display: grid;
-    height: 100vh;
+    /* height: 100vh; */
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 50px 200px 200px 1fr 1fr 150px 150px;
+    /* overflow: hidden; */
+    /* position: relative; */
+    grid-template-columns: 50px 150px 150px 1fr 1fr 150px 150px;
     grid-template-rows: 42px 50px 42px 1fr 1fr 1fr 1fr;
 
     grid-template-areas:
@@ -19,6 +21,8 @@
 .navbar {
     grid-area: navbar;
     background-color: #6554c0;
+    /* position: sticky; */
+    top: 0;
     /* display: flex; */
     /* justify-content: space-between; */
 }
@@ -26,6 +30,9 @@
 .sideBar {
     grid-area: sideBar;
     background-color: #f6fafd;
+    position: static;
+    left: 0;
+    top: 50px;
 }
 
 .conversationTitle {

@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas:
+        "a a a a a a a"
+        "s b b b b b b"
+        "s d d c c c c"
+        "s f f g g h h"
+        "s f f g g h h"
+        "s f f g g h h";
+}

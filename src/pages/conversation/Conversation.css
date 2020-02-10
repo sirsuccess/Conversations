@@ -1,14 +1,57 @@
 .container {
     display: grid;
-
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    height: 100vh;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 42px 50px 42px 1fr 1fr 1fr 1fr;
 
     grid-template-areas:
-        "a a a a a a a"
-        "s b b b b b b"
-        "s d d c c c c"
-        "s f f g g h h"
-        "s f f g g h h"
-        "s f f g g h h";
+        "navbar navbar navbar navbar navbar navbar navbar"
+        "sideBar conversationTitle conversationTitle conversationTitle conversationTitle conversationTitle conversationTitle"
+        "sideBar menu menu icon icon icon icon"
+        "sideBar twit twit whatsApp whatsApp comments comments"
+        "sideBar twit twit whatsApp whatsApp comments comments"
+        "sideBar twit twit whatsApp whatsApp comments comments";
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: #6554c0;
+}
+
+.sideBar {
+    grid-area: sideBar;
+    background-color: rgb(212, 198, 198);
+}
+
+.conversationTitle {
+    grid-area: conversationTitle;
+    background-color: rgb(13, 55, 172);
+}
+
+.menu {
+    grid-area: menu;
+    background-color: rgb(187, 74, 112);
+}
+
+.icon {
+    grid-area: icon;
+    background-color: rgb(44, 160, 49);
+}
+
+.twit {
+    grid-area: twit;
+    background-color: rgb(87, 84, 84);
+}
+
+.whatsApp {
+    grid-area: whatsApp;
+    background-color: rgb(145, 238, 168);
+}
+
+.comments {
+    grid-area: comments;
+    background-color: rgb(195, 228, 76);
 }

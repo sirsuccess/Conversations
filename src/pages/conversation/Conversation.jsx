@@ -4,6 +4,7 @@ import Navbar from "../../component/features/navbar/Navbar";
 import SideBar from "../../component/features/sidebar/Sidebar";
 import Menu from "../../component/features/menu/Menu";
 import TopIconMenu from "../../component/features/topIconMenu/TopIconMenu";
+import Twit from "../../component/features/twit/Twit";
 import "./Conversation.css";
 
 export default function Conversation() {
@@ -24,7 +25,9 @@ export default function Conversation() {
         <div className="icon">
           <TopIconMenu />
         </div>
-        <div className="twit">Zerela Reed</div>
+        <div className="twit">
+          <Twit />
+        </div>
         <div className="whatsApp">
           WhatsApp for Business: Don't forget to start your free trial
         </div>

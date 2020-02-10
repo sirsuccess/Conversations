@@ -1,0 +1,88 @@
+.Twit {
+    overflow-y: scroll;
+    height: 95vh;
+
+}
+
+.Twit::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.Twit::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e9edf0;
+    border-radius: 5px;
+}
+
+/* Handle */
+.Twit::-webkit-scrollbar-thumb {
+    background-color: #6554c0;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.Twit::-webkit-scrollbar-thumb:hover {
+    /* background: #b30000; */
+}
+
+.innerTwit {
+    border-bottom: solid 0.7px #e9edf0;
+    margin: 1em;
+    padding-bottom: 1em;
+}
+
+.topTwit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.imgSide img {
+    width: 15px;
+    stroke: #006600;
+    fill: #00cc00;
+}
+
+svg {
+    background-color: beige;
+    fill: red;
+}
+
+.imgSide {
+    display: flex;
+    align-items: center;
+}
+
+.Twitname {
+    margin-left: 1em;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.date {
+    color: #5e6c84;
+    opacity: 0.5;
+    font-size: 10px;
+}
+
+.tileAttachment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.title {
+    font-size: 13px;
+    color: #212242;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+}
+
+.comment {
+    color: #595e8a;
+    opacity: 0.75;
+    font-size: 12px;
+}

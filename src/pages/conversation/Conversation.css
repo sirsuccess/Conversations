@@ -4,7 +4,7 @@
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50px 200px 200px 1fr 1fr 150px 150px;
     grid-template-rows: 42px 50px 42px 1fr 1fr 1fr 1fr;
 
     grid-template-areas:
@@ -19,11 +19,13 @@
 .navbar {
     grid-area: navbar;
     background-color: #6554c0;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 .sideBar {
     grid-area: sideBar;
-    background-color: rgb(212, 198, 198);
+    background-color: #f6fafd;
 }
 
 .conversationTitle {

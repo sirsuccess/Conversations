@@ -1,12 +1,16 @@
 import React from "react";
 
+import Navbar from "../../component/features/navbar/Navbar";
 import "./Conversation.css";
 
 export default function Conversation() {
   return (
     <>
       <div className="container">
-        <div className="navbar"> navbar</div>
+        <div className="navbar">
+          {" "}
+          <Navbar />
+        </div>
         <div className="conversationTitle">title</div>
         <div className="sideBar">sidebar</div>
         <div className="menu">Open</div>

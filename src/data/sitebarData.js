@@ -1,18 +1,22 @@
 export default [
   {
     icon: "/assets/img/analytics.png",
-    route: "/"
+    route: "/",
+    tooltip: "Analytics"
   },
   {
     icon: "/assets/img/happy.png",
-    route: "/"
+    route: "/",
+    tooltip: "Happy"
   },
   {
     icon: "/assets/img/schedule.png",
-    route: "/"
+    route: "/",
+    tooltip: "Schedule"
   },
   {
     icon: "/assets/img/comment.png",
-    route: "/"
+    route: "/",
+    tooltip: "Comment"
   }
 ];

@@ -1,6 +1,5 @@
 import React from "react";
 
-// import SimpoLogo from "../../../../public/assets/img/logo.png";
 import "./Logo.css";
 
 function Logo() {

@@ -5,6 +5,7 @@ import SideBar from "../../component/features/sidebar/Sidebar";
 import Menu from "../../component/features/menu/Menu";
 import TopIconMenu from "../../component/features/topIconMenu/TopIconMenu";
 import Twit from "../../component/features/twit/Twit";
+import Comments from "../../component/features/comments/Comments";
 import "./Conversation.css";
 
 export default function Conversation() {
@@ -31,7 +32,9 @@ export default function Conversation() {
         <div className="whatsApp">
           WhatsApp for Business: Don't forget to start your free trial
         </div>
-        <div className="comments">comments</div>
+        <div className="comments">
+          <Comments />
+        </div>
       </div>
     </>
   );

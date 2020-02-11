@@ -16,13 +16,13 @@
 
 /* Handle */
 .Twit::-webkit-scrollbar-thumb {
-    background-color: #6554c0;
+    background-color: #7f6fdd;
     border-radius: 5px;
 }
 
 /* Handle on hover */
 .Twit::-webkit-scrollbar-thumb:hover {
-    /* background: #b30000; */
+    background: #6554c0;
 }
 
 .innerTwit {

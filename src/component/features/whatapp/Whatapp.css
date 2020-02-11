@@ -110,4 +110,9 @@
 
 .typeMesage .fa-paperclip {
     cursor: pointer;
+
+}
+
+.fa-paperclip {
+    opacity: 0.35;
 }

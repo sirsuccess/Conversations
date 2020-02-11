@@ -1,0 +1,94 @@
+.comment-scroll {
+    overflow-y: scroll;
+    height: 500px;
+
+}
+
+.comment-scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.comment-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e9edf0;
+    border-radius: 5px;
+}
+
+/* Handle */
+.comment-scroll::-webkit-scrollbar-thumb {
+    background-color: #7f6fdd;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.comment-scroll::-webkit-scrollbar-thumb:hover {
+    background: #6554c0;
+}
+
+.innerComment {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1em;
+    padding: 0 1em;
+
+}
+
+
+.innerComment img,
+.reply img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 0.5em;
+
+}
+
+.commentMsg {
+    color: #595e8a;
+    background-color: #f6fafd;
+    padding: 0.5em;
+    font-size: 12px;
+    border-radius: 24px;
+    width: 227px;
+}
+
+.reply {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.replyInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #f6fafd;
+    height: 33px;
+    padding: 0.5em;
+    width: 227px;
+}
+
+.replyInput input {
+    border: none;
+    background-color: #f6fafd;
+    font-size: 12px;
+    outline-style: none;
+}
+
+.send {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), inset 0 -2px 0 0 rgba(0, 0, 0, 0.1);
+    background-color: #6554c0;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.fa-paper-plane {
+    margin-top: 0.4em;
+}
+
+/* .reply img {} */

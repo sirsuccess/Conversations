@@ -1,3 +1,30 @@
+.comment-scroll {
+    overflow-y: scroll;
+    height: 500px;
+
+}
+
+.comment-scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.comment-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e9edf0;
+    border-radius: 5px;
+}
+
+/* Handle */
+.comment-scroll::-webkit-scrollbar-thumb {
+    background-color: #7f6fdd;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.comment-scroll::-webkit-scrollbar-thumb:hover {
+    background: #6554c0;
+}
+
 .innerComment {
     display: flex;
     align-items: flex-start;
@@ -5,6 +32,7 @@
     padding: 0 1em;
 
 }
+
 
 .innerComment img,
 .reply img {
@@ -27,7 +55,7 @@
 .reply {
     display: flex;
     align-items: flex-start;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .replyInput {

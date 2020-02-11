@@ -6,12 +6,14 @@ import CommentData from "../../../data/commentData";
 function Comments() {
   return (
     <div className="Comments">
-      {CommentData.map((item, index) => (
-        <div className="innerComment" key={index}>
-          <img src={item.img} alt="user" />
-          <div className="commentMsg">{item.comment}</div>
-        </div>
-      ))}
+      <div className="comment-scroll">
+        {CommentData.map((item, index) => (
+          <div className="innerComment" key={index}>
+            <img src={item.img} alt="user" />
+            <div className="commentMsg">{item.comment}</div>
+          </div>
+        ))}
+      </div>
       <div className="reply">
         <img src="/assets/img/me.jpg" alt="user" />
         <div className="replyInput">

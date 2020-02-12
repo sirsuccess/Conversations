@@ -8,7 +8,7 @@
 
 Site: [simpu-conversation](https://simpu-conversation.netlify.com/)
 
-![simpu-conversation](./assets/img/desktopView.png)
+![simpu-conversation](./public/assets/img/desktopView.png)
 
 React Mock up build. Powered by HTML, CSS Javascript and Jest.
 
@@ -21,7 +21,7 @@ React Mock up build. Powered by HTML, CSS Javascript and Jest.
 
 # Mobile View
 
-![simpu-conversation](./assets/img/mobileView.jpeg)
+![simpu-conversation](./public/assets/img/mobileView.jpeg)
 
 # Run Application
 

@@ -98,3 +98,37 @@
     }
 
 }
+
+@media screen and (max-width: 580px) {
+    .container {
+
+
+
+        grid-template-areas:
+            "navbar navbar navbar navbar navbar navbar navbar"
+            "sideBar sideBar sideBar sideBar sideBar sideBar sideBar"
+            "conversationTitle conversationTitle conversationTitle conversationTitle conversationTitle conversationTitle conversationTitle"
+            "menu menu menu menu menu menu menu"
+            "icon icon icon icon icon icon icon"
+            "button button button button button button button"
+            "twit twit twit twit twit twit twit "
+            "whatsApp whatsApp whatsApp whatsApp whatsApp whatsApp whatsApp"
+            "comments comments comments comments comments comments comments";
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .buttons>button {
+        margin-left: 25%;
+        background-color: #6554c0;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        padding: 0.5em;
+    }
+}

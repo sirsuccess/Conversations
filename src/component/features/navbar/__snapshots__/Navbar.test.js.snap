@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="Navbar1"
+>
+  <div
+    className="Logo"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/logo.png"
+    />
+  </div>
+  <div
+    className="CompanyName"
+  >
+    <div
+      className="circle"
+    >
+      S
+    </div>
+    Organisation Name 
+    <i
+      className="fa fa-chevron-down"
+    />
+  </div>
+</div>
+`;

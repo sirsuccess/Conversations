@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="Menu"
+>
+  <ul>
+    <li>
+      Open
+    </li>
+    <li>
+      Archived
+    </li>
+    <li>
+      Snoozed
+    </li>
+    <li>
+      Trash
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="Sidebar"
+>
+  <div
+    className="sidebarIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/analytics.png"
+    />
+    <span
+      className="tooltiptext"
+    >
+      Analytics
+    </span>
+  </div>
+  <div
+    className="sidebarIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/happy.png"
+    />
+    <span
+      className="tooltiptext"
+    >
+      Happy
+    </span>
+  </div>
+  <div
+    className="sidebarIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/schedule.png"
+    />
+    <span
+      className="tooltiptext"
+    >
+      Schedule
+    </span>
+  </div>
+  <div
+    className="sidebarIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/comment.png"
+    />
+    <span
+      className="tooltiptext"
+    >
+      Comment
+    </span>
+  </div>
+</div>
+`;

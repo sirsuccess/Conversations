@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="WhatApp"
+>
+  <div
+    className="mesage"
+  >
+    WhatsApp for Business: Don't forget to start your free trial
+  </div>
+  <div
+    className="WhatApp-scroll"
+  >
+    <div
+      className="replyCon"
+    >
+      <img
+        alt=""
+        src="/assets/img/reply.png"
+      />
+       Reply this conversation
+    </div>
+    <div
+      className="innerWhatApp"
+    >
+      <div
+        className="username"
+      >
+        Zarela Reed
+      </div>
+      <div
+        className="lightBgMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy, I’m talking about after the infant is brought home from the hospital. It’s always the same thing, by the time they have their third child they have it all figured out, but with number one it’s a learning thing.
+      </div>
+      <div
+        className="time"
+      >
+        12:59 PM
+         
+        <div
+          className="display-none"
+        >
+          <i
+            class="fa fa-check"
+          />
+          <i
+            class="fa fa-check"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="innerWhatApp"
+    >
+      <div
+        className="username"
+      >
+        Collins Iheagwara
+      </div>
+      <div
+        className="WhatAppMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy, I’m talking about after the infant is brought home from the hospital. It’s always the same thing, by the time they have their third child they have it all figured out, but with number one it’s a learning thing.
+      </div>
+      <div
+        className="time"
+      >
+        12:59 PM
+         
+        <div
+          className="check"
+        >
+          <i
+            class="fa fa-check"
+          />
+          <i
+            class="fa fa-check"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="innerWhatApp"
+    >
+      <div
+        className="username"
+      >
+        Collins Iheagwara
+      </div>
+      <div
+        className="WhatAppMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy, I’m talking about after the infant is brought home from the hospital. It’s always the same thing, by the time they have their third child they have it all figured out, but with number one it’s a learning thing.
+      </div>
+      <div
+        className="time"
+      >
+        12:59 PM
+         
+        <div
+          className="check"
+        >
+          <i
+            class="fa fa-check"
+          />
+          <i
+            class="fa fa-check"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="innerWhatApp"
+    >
+      <div
+        className="username"
+      >
+        Zarela Reed
+      </div>
+      <div
+        className="lightBgMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy, I’m talking about after the infant is brought home from the hospital. It’s always the same thing, by the time they have their third child they have it all figured out, but with number one it’s a learning thing.
+      </div>
+      <div
+        className="time"
+      >
+        12:59 PM
+         
+        <div
+          className="display-none"
+        >
+          <i
+            class="fa fa-check"
+          />
+          <i
+            class="fa fa-check"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="typeMesage"
+  >
+    <input
+      placeholder="Type a messages…"
+      type="text"
+    />
+    <i
+      class="fa fa-paperclip"
+    />
+  </div>
+</div>
+`;

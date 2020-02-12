@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="Comments"
+>
+  <div
+    className="comment-scroll"
+  >
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+    <div
+      className="innerComment"
+    >
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+      <div
+        className="commentMsg"
+      >
+        Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy.
+      </div>
+    </div>
+  </div>
+  <div
+    className="reply"
+  >
+    <img
+      alt="user"
+      src="/assets/img/me.jpg"
+    />
+    <div
+      className="replyInput"
+    >
+      <input
+        placeholder="Write your comment…."
+        type="text"
+      />
+      <div
+        className="send"
+      >
+        <i
+          class="fa fa-paper-plane"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

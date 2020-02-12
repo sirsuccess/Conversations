@@ -10,9 +10,40 @@ import WhatsApp from "../../component/features/whatapp/WhatApp";
 import "./Conversation.css";
 
 export default function Conversation() {
-  const [openTwit, setOpenTwit] = useState(false);
-  const [openWhatApp, setOpenWhatApp] = useState(false);
-  const [openComment, setOpenComment] = useState(false);
+  function twitFun() {
+    const twit = document.querySelector(".twit");
+    const whatsApp = document.querySelector(".whatsApp");
+    const comment = document.querySelector(".comments");
+    const twitDisplayNone = document.querySelector(".twit-display-none");
+    const whatAppDisplayNone = document.querySelector(".whatsApp-display-none");
+    const commentsDisplayNone = document.querySelector(
+      ".comments-display-none"
+    );
+
+    // twit.classList.toggle("twit-display-none");
+    twit.style.display = "block";
+    whatsApp.style.display = "none";
+    comment.style.display = "none";
+    // return twit.classList.add("twit-display-none");
+  }
+  function whatappFun() {
+    const twit = document.querySelector(".twit");
+    const whatsApp = document.querySelector(".whatsApp");
+    const comment = document.querySelector(".comments");
+
+    twit.style.display = "none";
+    whatsApp.style.display = "block";
+    comment.style.display = "none";
+  }
+  function commentsFun() {
+    const twit = document.querySelector(".twit");
+    const whatsApp = document.querySelector(".whatsApp");
+    const comment = document.querySelector(".comments");
+
+    twit.style.display = "none";
+    whatsApp.style.display = "none";
+    comment.style.display = "block";
+  }
   return (
     <>
       <div className="container">
@@ -31,9 +62,9 @@ export default function Conversation() {
           <TopIconMenu />
         </div>
         <div className="buttons">
-          <button>Twit</button>
-          <button>WhatApp</button>
-          <button>Comments</button>
+          <button onClick={twitFun}>Twit</button>
+          <button onClick={whatappFun}>WhatApp</button>
+          <button onClick={commentsFun}>Comments</button>
         </div>
         <div className="twit">
           <Twit />

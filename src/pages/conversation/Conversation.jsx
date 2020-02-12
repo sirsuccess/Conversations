@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Navbar from "../../component/features/navbar/Navbar";
 import SideBar from "../../component/features/sidebar/Sidebar";
@@ -10,6 +10,9 @@ import WhatsApp from "../../component/features/whatapp/WhatApp";
 import "./Conversation.css";
 
 export default function Conversation() {
+  const [openTwit, setOpenTwit] = useState(false);
+  const [openWhatApp, setOpenWhatApp] = useState(false);
+  const [openComment, setOpenComment] = useState(false);
   return (
     <>
       <div className="container">
@@ -26,6 +29,11 @@ export default function Conversation() {
         </div>
         <div className="icon">
           <TopIconMenu />
+        </div>
+        <div className="buttons">
+          <button>Twit</button>
+          <button>WhatApp</button>
+          <button>Comments</button>
         </div>
         <div className="twit">
           <Twit />

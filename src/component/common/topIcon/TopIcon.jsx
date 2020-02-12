@@ -4,7 +4,7 @@ import React from "react";
 import "./TopIcon.css";
 import TopIconsData from "../../../data/topIcons";
 
-function Sidebar() {
+function TopIcon() {
   return (
     <div className="TopIcon">
       {TopIconsData.map((item, index) => (
@@ -18,4 +18,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default TopIcon;

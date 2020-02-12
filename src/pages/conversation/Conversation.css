@@ -25,7 +25,6 @@
 .navbar {
     grid-area: navbar;
     background-color: #6554c0;
-
 }
 
 .sideBar {
@@ -67,6 +66,7 @@
     grid-area: twit;
     border-bottom: solid 0.7px #e9edf0;
     border-right: solid 0.7px #e9edf0;
+    /* display: inline; */
 }
 
 .whatsApp {
@@ -81,7 +81,6 @@
     border-right: solid 0.7px #e9edf0;
 }
 
-
 @media screen and (max-width: 880px) {
     .container {
         display: grid;
@@ -89,7 +88,6 @@
         max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
-
 
         grid-template-areas:
             "navbar navbar navbar navbar navbar navbar navbar"
@@ -100,14 +98,10 @@
             "twit twit twit whatsApp whatsApp comments comments"
             "twit twit twit whatsApp whatsApp comments comments";
     }
-
 }
 
 @media screen and (max-width: 580px) {
     .container {
-
-
-
         grid-template-areas:
             "navbar navbar navbar navbar navbar navbar navbar"
             "sideBar sideBar sideBar sideBar sideBar sideBar sideBar"
@@ -134,5 +128,16 @@
         border: none;
         border-radius: 20px;
         padding: 0.5em;
+        outline-style: none;
     }
+
+    .whatsApp {
+        display: none;
+    }
+
+    .comments {
+        display: none;
+    }
+
+
 }

@@ -18,6 +18,10 @@
         "sideBar twit twit whatsApp whatsApp comments comments";
 }
 
+.buttons {
+    display: none;
+}
+
 .navbar {
     grid-area: navbar;
     background-color: #6554c0;

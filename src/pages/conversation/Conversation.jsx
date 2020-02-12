@@ -14,11 +14,6 @@ export default function Conversation() {
     const twit = document.querySelector(".twit");
     const whatsApp = document.querySelector(".whatsApp");
     const comment = document.querySelector(".comments");
-    const twitDisplayNone = document.querySelector(".twit-display-none");
-    const whatAppDisplayNone = document.querySelector(".whatsApp-display-none");
-    const commentsDisplayNone = document.querySelector(
-      ".comments-display-none"
-    );
 
     // twit.classList.toggle("twit-display-none");
     twit.style.display = "block";

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="TopIcon"
+>
+  <div
+    className="opIconIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/clock.png"
+    />
+    <span
+      className="tooltiptex"
+    >
+      Clock
+    </span>
+  </div>
+  <div
+    className="opIconIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/delete.png"
+    />
+    <span
+      className="tooltiptex"
+    >
+      Delete item
+    </span>
+  </div>
+  <div
+    className="opIconIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/computer.png"
+    />
+    <span
+      className="tooltiptex"
+    >
+      Computer
+    </span>
+  </div>
+  <div
+    className="opIconIcon"
+  >
+    <img
+      alt="Simpo log"
+      src="/assets/img/more.png"
+    />
+    <span
+      className="tooltiptex"
+    >
+      More
+    </span>
+  </div>
+</div>
+`;

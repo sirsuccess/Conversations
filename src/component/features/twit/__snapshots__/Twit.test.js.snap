@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="Twit"
+>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/twitter.png"
+        />
+        <div
+          className="Twitname"
+        >
+          Zarela Reed
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        19hrs
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className=""
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/messenger.svg"
+        />
+        <div
+          className="Twitname"
+        >
+          Ava Gregoraci
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        23hrs
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className="fa fa-paperclip"
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/telegram.svg"
+        />
+        <div
+          className="Twitname"
+        >
+          Iruka Akuchi
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        June 1
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className="fa fa-paperclip"
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/whats-app.png"
+        />
+        <div
+          className="Twitname"
+        >
+          Iruka Akuchi
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        June 1
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className=""
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/apple.png"
+        />
+        <div
+          className="Twitname"
+        >
+          Kari Granleese
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        June 2
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className=""
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/twitter.png"
+        />
+        <div
+          className="Twitname"
+        >
+          Zarela Reed
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        19hrs
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className=""
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/messenger.svg"
+        />
+        <div
+          className="Twitname"
+        >
+          Ava Gregoraci
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        23hrs
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className="fa fa-paperclip"
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/telegram.svg"
+        />
+        <div
+          className="Twitname"
+        >
+          Iruka Akuchi
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        June 1
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className="fa fa-paperclip"
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/whats-app.png"
+        />
+        <div
+          className="Twitname"
+        >
+          Iruka Akuchi
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        June 1
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className=""
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+  <div
+    className="innerTwit"
+  >
+    <div
+      className="topTwit"
+    >
+      <div
+        className="imgSide"
+      >
+        <img
+          alt="Social media image"
+          src="/assets/img/apple.png"
+        />
+        <div
+          className="Twitname"
+        >
+          Kari Granleese
+        </div>
+      </div>
+      <div
+        className="date"
+      >
+        June 2
+      </div>
+    </div>
+    <div
+      className="tileAttachment"
+    >
+      <div
+        className="title"
+      >
+        Used Electronic Test Equipment Not Wor…
+      </div>
+      <i
+        className=""
+      />
+    </div>
+    <div
+      className="comment"
+    >
+      Hello guys, I have been unable to make use of
+    </div>
+  </div>
+</div>
+`;

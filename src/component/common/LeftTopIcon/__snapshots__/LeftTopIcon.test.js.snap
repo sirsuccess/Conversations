@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="LeftTopIcon"
+>
+  <ul>
+    <li>
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+    </li>
+    <li>
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+    </li>
+    <li>
+      <img
+        alt="user"
+        src="/assets/img/me.jpg"
+      />
+    </li>
+  </ul>
+  <div
+    className="assign"
+  >
+    Assign
+  </div>
+  <i
+    class="fa fa-user"
+  />
+</div>
+`;

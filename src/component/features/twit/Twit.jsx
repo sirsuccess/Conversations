@@ -11,7 +11,7 @@ function Twit() {
         <div className="innerTwit" key={index}>
           <div className="topTwit">
             <div className="imgSide">
-              <img src={item.socialMediaImg} alt="Social media image" />
+              <img src={item.socialMediaImg} alt="Social media" />
               <div className="Twitname">{item.name}</div>
             </div>
             <div className="date">{item.date}</div>

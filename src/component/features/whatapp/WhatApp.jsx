@@ -48,9 +48,11 @@ function WhatApp() {
         WhatsApp for Business: Don't forget to start your free trial
       </div>
       <div className="WhatApp-scroll">
-        <div className="replyCon">
-          <img src="/assets/img/reply.png" alt="" /> Reply this conversation
-        </div>
+        <a href="#textinput">
+          <div className="replyCon">
+            <img src="/assets/img/reply.png" alt="" /> Reply this conversation
+          </div>
+        </a>
         {comments.map((item, index) => (
           <div className="innerWhatApp" key={index}>
             <div className="username">{item.name}</div>
@@ -73,6 +75,7 @@ function WhatApp() {
           value={inputedText}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
+          id="textinput"
           class="textinput"
           name="description"
         >
